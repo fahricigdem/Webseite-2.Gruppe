@@ -12,3 +12,7 @@ body {
 img{
     width: 25%;
 }
+
+.listheader{
+list-style: none;
+}
