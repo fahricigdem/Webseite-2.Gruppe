@@ -156,4 +156,35 @@ footer  a:hover{
             height: 180px;
         }
 
+    .contactMain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        
+        }
+        .contact {
+            color: cornsilk;
+            
+            margin-left: 1vw;
+        }
+        
+        .contactForm {
+            color: cornsilk;
+            
+            margin-left: .1vw;
+            margin-top: 10vw;
+            margin-bottom: 20vw;
+
+               
+        }
+
+        iframe {
+            width: 250px;
+
+            height:250px;
+        }
+
+
 }
