@@ -116,7 +116,35 @@ footer  a:hover{
     
 }
 
+/* impressum und contact*/
+.impressum {
+    color: cornsilk;
+    margin: 20px;
+}
+.impressum h1{
+    margin: 20px;
+}
 
+
+.contactMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.contact {
+    color: cornsilk;
+    width: 45vw;
+}
+
+.contactForm {
+    color: cornsilk;
+    width: 25vw;
+    margin-left: 10vw;
+
+}
 /* media queries */
 
 @media(max-width:600px){
