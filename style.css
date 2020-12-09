@@ -12,7 +12,13 @@ body {
 }
 
 /* header */
+img{
+    width: 25%;
+}
 
+.listheader{
+list-style: none;
+}
 /* main */
 .main {
     background-color: rgb(221, 171, 171);
