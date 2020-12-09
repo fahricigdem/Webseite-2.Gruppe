@@ -10,7 +10,73 @@ body {
     align-items: center;
     background-color: rgb(125, 126, 129);
     max-width: 100vw;
+    background-image: url(https://www.tagesschau.de/resources/framework/img/tagesschau/background/base.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
 }
+
+
+/* header */
+header img{
+    width: 25%;
+}
+
+.listheader{
+list-style: none;
+}
+
+/* main */
+main {
+    background-color: rgb(224, 188, 188);
+    margin-top: 10px;
+}
+
+.mainNachricht {
+    background-color: burlywood;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+.mainImage {
+    display: flex;
+    
+
+}
+
+main img {
+    width: 20vw;
+}
+
+
+.mainArtikelHaupt {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainArtikelHeader {
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.mainArtikel {
+	margin: 10px;
+}
+.mainArtikelinfo {
+    font-size: .9rem;
+    color: rgb(114, 111, 111);
+    margin: 0px 10px 10px 10px;
+}
+
+
+
+/* footer */
 
 .Footer {
     display: flex;
@@ -38,67 +104,9 @@ a:hover{
 }
 
 
+/* media queries */
 
-
-
-
-
-
-
-
-/* header */
-header img{
-    width: 25%;
-}
-
-.listheader{
-list-style: none;
-}
-
-/* main */
-main {
-    background-color: rgb(224, 188, 188);
-}
-
-main img {
-    width: 20vw;
-}
-
-
-.mainNachricht {
-    background-color: burlywood;
-    width: 90vw;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
-    
-    
-    
-    
-    
-}
-
-.mainImage {
-    display: flex;
-    
-
-}
-
-.mainArtikelHaupt {
-    display: flex;
-    flex-direction: column;
-}
-
-.mainArtikelinfo_p {
-    font-size: .9rem;
-    color: rgb(114, 111, 111);
-    margin-top: 10px;
-}
-
-@media(max-width:450px){
+@media(max-width:600px){
     .mainNachricht {
         flex-direction: column;
     }
@@ -107,7 +115,3 @@ main img {
         }
 
 }
-
-
-/* footer */
-
