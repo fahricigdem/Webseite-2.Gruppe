@@ -156,9 +156,9 @@ footer  a:hover{
             height: 180px;
         }
 
+    }
 
-
-@media(max-width:900px){
+@media(max-width:1100px){
 
     .contactMain {
         display: flex;
@@ -193,4 +193,4 @@ footer  a:hover{
 
 }
 
-}
+
