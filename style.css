@@ -10,7 +10,8 @@ body {
     background-color: rgb(125, 126, 129);
     max-width: 100vw;
 }
-<<<<<<< HEAD
+
+/* header */
 img{
     width: 25%;
 }
@@ -18,10 +19,6 @@ img{
 .listheader{
 list-style: none;
 }
-=======
-
-/* header */
-
 /* main */
 .main {
     background-color: rgb(221, 171, 171);
