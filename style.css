@@ -8,7 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(125, 126, 129);
+    max-width: 100vw;
 }
+<<<<<<< HEAD
 img{
     width: 25%;
 }
@@ -16,3 +18,21 @@ img{
 .listheader{
 list-style: none;
 }
+=======
+
+/* header */
+
+/* main */
+.main {
+    background-color: rgb(221, 171, 171);
+}
+.mainNachricht {
+    width: 90vw;
+    background-color: black;
+
+}
+
+
+/* footer */
+
+>>>>>>> 11a89e80da855c06f1cadbe25cacbe1d35d4b7e1
