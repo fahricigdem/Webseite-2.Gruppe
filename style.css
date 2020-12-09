@@ -10,6 +10,40 @@ body {
     background-color: rgb(125, 126, 129);
 }
 
+.Footer {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+
+a {
+
+    padding: 10px;
+    width: 60px;
+    text-decoration:none ;
+
+}
+
+a:link {
+    color: fuchsia;
+    font-family: inherit;
+    font-size: 20px;   
+}
+
+a:hover{
+    color:red;
+    
+}
+
+
+
+
+
+
+
+
+
+
 /* header */
 
 /* main */
