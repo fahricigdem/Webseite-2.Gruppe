@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(125, 126, 129);
+    max-width: 100vw;
 }
 
 .Footer {
@@ -45,8 +46,28 @@ a:hover{
 
 
 /* header */
+img{
+    width: 25%;
+}
 
+.listheader{
+list-style: none;
+}
 /* main */
+.main {
+    background-color: rgb(221, 171, 171);
+}
+.mainNachricht {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90vw;
+    background-color: greenyellow;
+
+}
+
+mainArtikelinfo_p {
+    font-size: .5rem;
+}
 
 
 /* footer */
