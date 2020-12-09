@@ -21,6 +21,7 @@ body {
 /* header */
 header img{
     width: 25%;
+    
 }
 
 .listheader{
@@ -34,7 +35,7 @@ main {
 }
 
 .mainNachricht {
-    background-color: burlywood;
+    background-color: whitesmoke;
     width: 90vw;
     display: flex;
     flex-direction: row;
@@ -56,6 +57,8 @@ main {
 main img {
     width: 20vw;
     height: 20vw;
+    margin: 10px;
+    border-radius: 5%;
     
 }
 
@@ -73,6 +76,11 @@ main img {
 .mainArtikel {
 	margin: 10px;
 }
+
+main a {
+    text-decoration:none ;
+    color: black;
+}
 .mainArtikelinfo {
     font-size: .9rem;
     color: rgb(114, 111, 111);
@@ -89,7 +97,7 @@ main img {
     padding: 60px;
 }
 
-a {
+footer a {
 
     padding: 10px;
     width: 60px;
@@ -97,13 +105,13 @@ a {
 
 }
 
-a:link {
+footer  a:link {
     color: fuchsia;
     font-family: inherit;
     font-size: 20px;   
 }
 
-a:hover{
+footer  a:hover{
     color:red;
     
 }
