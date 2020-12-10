@@ -49,6 +49,12 @@ header  a:hover{
     
 }
 
+header  a:active{
+    background-color: #ED7E32;
+    transition: 1s;
+    
+}
+
 
 .headercontainer{
     display: flex;
