@@ -87,6 +87,27 @@ main a {
     margin: 0px 10px 10px 10px;
 }
 
+/*Nachricht Seite*/
+.mainArtikelSozial {
+    margin: 0px 5px 5px 5px;
+}
+
+.mainSozial_ul {
+    display: flex;
+    flex-direction: row;
+    /* align-content: flex-start; */
+    
+
+    list-style: none;
+}
+/* .sozial_li {
+    height: 5vh;
+} */
+.sozial_li img  {
+    width: 5vh;
+    height: 5vh;
+}  
+
 
 
 /* footer */
