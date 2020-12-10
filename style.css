@@ -232,8 +232,11 @@ footer  a:hover{
 
 /* impressum und contact*/
 .impressum {
-    color: cornsilk;
+    
     margin: 20px;
+    background-color: honeydew;
+    color:blue;
+    
 }
 .impressum h1{
     margin: 20px;
