@@ -205,10 +205,15 @@ main a {
 
 /* footer */
 
-.Footer {
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer0 {
     display: flex;
     flex-direction: row;
-    padding: 60px;
+    
 }
 
 footer a {
