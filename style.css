@@ -59,13 +59,14 @@ header  a:hover{
 .headercontainer nav ul{
     display: flex;
     justify-content: space-between;
+    margin: .1vh 4vh;
 }
 
 
 
 .headercontainer nav ul li   {
 
-    padding: 10px 8px;
+    padding: 3vh .5vh;
     width: 100%;
     font-weight: bolder;
     font-size: 100%;
@@ -75,6 +76,7 @@ header  a:hover{
 
 .headercontainer img{
     width: 5%;
+    min-width: 40px;
     
 }
 
